@@ -1,0 +1,710 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header-part{
+   position:fixed;
+   top:0px;
+   left: 0px;
+   width: 100%;
+   z-index: 99;
+
+
+
+
+
+}
+
+.header-part a img{
+    width: 50px;
+}
+span{
+  
+    color: white;
+    margin-bottom: -40px;
+    font-size:22px;
+
+}
+
+.header-part-menu{}
+.header-part-menu ul{}
+.header-part-menu ul li{
+     
+    padding: 0 40px;
+}
+.header-part-menu ul li a{
+    font-size: 22px;
+    color: white;
+    position: relative;
+
+  
+
+    
+}
+
+
+.header-part-menu ul li a::before{
+   content: "";
+   bottom:0;
+   left: 0;
+   position: absolute;
+   width:0;
+   height: 100%;
+   border-bottom: 2px solid rgb(235, 5, 5);
+   transition: .4s;
+   
+}
+.header-part-menu ul li a:hover::before{
+      width: 100%;
+}
+
+
+.header-part-menu ul li{}
+.header-part-menu ul li .dropdown-menu{
+    width: 250px;
+    height: 300px;
+    text-align: center;
+   margin-top: 6px;
+   transition: 5s;
+   transform-origin: top center;
+
+    
+
+   
+}
+.header-part-menu ul li ul li{
+padding: 3px 0;
+margin-left: 0;
+display:block;
+margin-right: 0;
+
+}
+.header-part-menu ul li ul li a {
+ padding: 8px 0;
+ 
+
+}
+.header-part-menu ul li ul li a:hover::before{
+border-bottom:none;
+width: 0;
+
+   
+   }
+   
+
+
+   
+
+.header-part-facebook{}
+
+.header-part-facebook ul{}
+.header-part-facebook ul li{
+    padding: px;
+    display:inline-block;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 20px 2px rgb(19, 17, 17) ;
+
+   
+}
+.header-part-facebook ul li a{
+   
+}
+.header-part-facebook ul li a i{
+  font-size: 20px;
+  margin-top: 5px;
+  color: black;
+  
+
+  
+ }
+
+ .btnn{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px 20px;
+    background-color: aqua;
+    position: relative;
+    z-index: 0;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+    
+
+
+ .btnn::before{
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgb(32, 189, 92);
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+    z-index: -1;
+   
+    transition: .4s;
+
+ }
+  
+ .btnn:hover::before{
+
+    width: 100%;
+   
+
+ }
+
+
+.background-section{
+    background-image: url(bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 180px 0;
+    position: relative;
+    z-index: 1;
+    
+   
+} 
+
+.background-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.726);
+    z-index: -1;
+    
+}
+
+
+
+
+    
+
+.background-section .cc{
+    width: 600px;
+    margin-left: 80px;
+}
+.background-section h6{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+} 
+.background-section h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+} 
+.background-sectio p{
+ 
+} 
+.background-section-button{} 
+.background-section-button a{
+  padding: 7px 20px;
+} 
+
+
+.middle-section{
+    background-color: rgb(121, 108, 108);
+    padding: 100px 0;
+}
+.middle-section-left{} 
+.middle-section-left img{
+    border-radius: 10px 10px;
+    width:500px;
+} 
+
+.middle-section h6{
+    margin-bottom: 20px;
+    font-size: 20px;
+  
+}
+.middle-section h3{
+  
+    font-size: 39px;
+    margin-bottom: 20px;
+}
+
+.middle-section-right{
+    margin-top: 20px;
+}
+.middle-section-right .degin{
+    background-color: beige;
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 3px 4px ;
+    margin-left: 90px;
+    margin-top: 20px;
+
+}
+
+.middle-section-right .degin:first-child{
+    margin-left: 0;
+}
+.middle-section-right .degin i{
+  font-size: 40px;
+
+}
+.middle-section-right .degin h5{
+    font-size: 20px;
+    margin-top: 10px;
+  
+  }
+
+  .middle-section p{
+    font-size: 20px;
+    margin-top: 35px;
+
+  }
+  .middle-section-button a{
+    padding: 8px 20px;
+   font-size: 25px;
+    margin-top: 30px;
+  }
+
+  .middle-section-weather{
+ padding: 0 20px;
+  }
+  .middle-section-weather h6{
+    
+}
+.middle-section-weather h2{
+   font-size: 40px; 
+}
+
+.app-weather{
+    margin-top: 100px;
+}
+.app{
+    width:1300px ;
+    height: 350px;
+    border-radius: 5px;
+    background-color: bisque;
+}
+.middle-section-mobile{
+    margin-left: 40em;
+}
+.middle-section-mobile img{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    bottom: 98px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.goal{
+    padding: 60px;
+    background-color: #efefef; ;
+}
+.service{
+   
+    margin-top: 20px;
+}
+
+.service i{
+    background-color: rgb(248, 244, 239);
+    padding: 12px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.service h6{
+    position: relative;
+    margin-left: 55px;
+    margin-top: -28px;
+    
+}
+
+
+.software{
+    margin-bottom: 30px;
+    padding: 100px;
+    background-color: #efefef;
+}
+.software h1{
+ font-size: 120px;
+ margin-bottom: 100px;
+}
+.increase{
+  
+}
+.Development{
+    background-color:white;
+    margin-left: 5em;
+    position: relative;
+    border-radius: 20px 20px 10px  10px;
+
+}
+.Development:first-child{
+    margin-left:0;
+}
+.Development img{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+}
+
+.Development-icon i{
+    background-color:white;
+    position: absolute;
+    top: 270px;
+    left:260px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.Development-coment{
+    padding:35px 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+  
+}
+.Development-coment h3{
+    
+}
+.Development-coment h6{
+    font-size: 16px;
+}
+
+.careers-section{
+    padding: 100px;
+}
+
+.careers-section-content{
+    padding: 80px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.careers-section-content-left{
+    width: 45%;
+    margin-top: 20px;
+}
+.careers-section-content-left h6{
+    font-size: 30px;
+}
+.careers-section-content-left h2{
+    font-size: 60px;
+}
+
+.careers-section-content-right{
+    width: 40%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.careers-section-content-right .setting{
+    border: 1px solid rgb(206, 198, 198);
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 7px;
+}
+.setting{
+
+align-items: center;
+    
+}
+.careers-section-content-right .setting .gear{
+ 
+   font-size: 30px; 
+   color: rgb(82, 79, 79);
+}
+.careers-section-content-right .setting h5{
+ 
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 25px;
+    
+   
+
+}
+.careers-section-content-right .setting .ter{
+ 
+    font-size: 30px;
+    margin-top:5px;
+    color: rgb(90, 90, 90);
+    
+}
+
+.careers-section-content-right .setting .ter1{
+ margin-left: 180px;
+ 
+}
+.careers-section-content-right .setting .ter2{
+    margin-left: 255px;
+ 
+}
+
+.careers-section-content-right .setting .ter3{
+    margin-left: 186px;
+ 
+}
+
+
+.our-team{
+    background-color: #efefef;
+    padding: 100px;
+}
+.members{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.members h6{
+    font-size:30px ;
+}
+  
+.members h2{
+    font-size:60px ;
+}
+  
+
+.our-team-member{}
+
+.john-smith{
+    background-color: white;
+    margin-right: 40px;
+    padding: 45px;
+    text-align: center;
+    position: relative;
+    border-radius: 20px 20px 10px 10px;
+}
+
+.john-smith-content{}
+.john-smith-content img{
+    width: 150px;
+    height:150px ;
+    border-radius: 50%;
+    margin-bottom: 30px;
+   
+}
+.john-smith-content h4{
+    font-size: 30px;
+}
+.john-smith-content h6{
+    margin-bottom: 40px;
+}
+
+.john-smith-content-icon{
+    position: absolute;
+    bottom:0px;
+    left: 15px;
+    
+}
+.john-smith-content-icon i{
+  margin-left: 20px;
+  background-color: #efefef;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px 10px 0 0;
+
+}
+
+.background-sections{
+    background-color: #efefef;
+    padding: 50px;
+}
+
+.background-section-pics{
+ 
+}
+
+.background-section-pics img{
+    width: 1300px;
+    height: 500px;
+    position: relative;
+}
+
+.background-section-contents{
+  
+    width: 1150px;
+    background-color: white;
+   margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+  position: relative;
+  bottom: 60px;
+} 
+
+.background-section-content-seevices{
+    margin-left: 105px;
+
+}
+
+.background-section-content-seevices:first-child{
+    margin-left: 30px;
+}
+
+
+.background-section-content-seevices h6{}
+
+.background-section-content-seevices h3{
+    font-size: 20px;
+}
+.buttuns{
+    margin-left: 240px;
+    margin-top: 10px;
+   position: relative;
+
+}
+.buttuns a{
+    padding: 10px 50px;
+    font-size: 20px;
+ 
+
+}
+.preview{
+    position: absolute;
+    top: 16px;
+    left: 130px;
+    font-size: 20px;
+}
+
+.client{
+    padding: 100px;
+}
+.Testimonials{
+   
+    margin-bottom: 70px;
+}
+.Testimonials h6{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(148, 148, 148);
+}
+.Testimonials h2{
+    color: white;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.client-feedback{}
+
+.client-feedback-coment{
+    margin-left: 50px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.client-feedback-coment:first-child{
+margin-left: 0;
+}
+
+
+.client-feedback-coment p{
+    font-size: 30px;
+}
+.client-feedback-coment i{
+    position: relative;
+    left: 50px;
+    top: 10px;
+    font-size: 50px;
+    color: rgb(145, 140, 133);
+}
+
+.client-feedback-details{
+
+   margin-top: 40px;
+  
+}
+.client-feedback-pic img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.client-feedback-name{
+   margin-left: 20px;
+   margin-top: 8px;
+  
+}
+..client-feedback-name h3{}
+.client-feedback-name h6{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.view{
+ background-color: #dce8eb;
+ padding: 100px;
+ 
+}
+.view h2{
+   text-align: center;
+   margin-bottom: 60px;
+   font-size: 60px;
+    
+   }
+
+   .video{
+    
+   }
+   iframe{
+    border-radius: 10px;
+   }
+   .form-section{
+    padding: 100px;
+   }
+
+   .form-section-details{
+    background-color: #dce8eb;
+    padding: 50px;
+    border-radius: 10px;
+   }
+
+   .work{   margin-left: 50px;
+margin-bottom: 20px;}
+   .work h6{  }
+   .work h4{font-size: 40px;}
+   .form-section-form{
+    margin-left: 50px;
+   }
+.form-control{
+    padding: 10px;
+}
+
+
+
+
+  
+   textarea{
+    border: none;
+    border-radius: 10px;
+    padding:20px;
+   }
+   .from-button{
+    margin-left: 650px;
+   }
+   .from-button button{
+    padding: 8px 50px;
+    margin-top: 30px;
+   }
+   .map{
+  
+   }
+   .fram{
+    border-radius: 0;
+    
+   }
+  .map{
+    background: rgb(128, 121, 121);
+  }
+  .footer-part{
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer-part h3{
+        margin-top: 18px;
+         font-weight: 400;
+        font-size: 25px;
+  }
